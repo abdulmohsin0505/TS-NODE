@@ -9,7 +9,7 @@
     "start": "concurrently npm:start:*",
     "dev": "npx nodemon",
     "clean": "npx tsc --build --clean",
-    "build": "npm clean && npm tsc",
+    "build": "npx tsc",
     "server": "node ./build/index.js"
   },
   "keywords": [],
